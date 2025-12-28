@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Task Reminder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🕒 Smart Task Reminder</h1>
+
+<div class="container">
+    <input type="text" id="task" placeholder="Enter task">
+    <input type="time" id="time">
+    <button onclick="addTask()">Add Reminder</button>
+</div>
+
+<ul id="taskList"></ul>
+
+<p id="quote"></p>
+
+<!-- Supabase JS (UMD) -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js/dist/umd/supabase.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
